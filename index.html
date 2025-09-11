@@ -1,12 +1,48 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-  <!--First time through using the meta keyword-->
+  <!-- charset -->
   <meta charset="utf-8" />
+
+  <!-- viewport from old class examples-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Default title name-->
   <title>
       CSC 2274 - About Me
   </title>
+  <!-- Stylesheet -->
+  <!-- <link rel="Stylesheet" href="style.css"> -->
+  <style>
+  /* Header 1 */
+  h1
+  {
+      color:blue;
+      font-size:50px;
+  }
+
+  /* Body */
+  body
+  {
+      font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      background-color: beige
+  }
+
+  /* Header 2 */
+  h2{font-family:verdana}
+
+  /* Header 4 */
+  h4{font-family:sans-serif}
+
+  /* alternate header styles */
+  .alternate-style
+  {
+      text-align: center;
+      font-size: 24px;
+  }
+
+  </style>
+
 </head>
 <body>
   <h1>
@@ -22,11 +58,11 @@
     and Middle school, gave birth to the idea of being a computer programmer. That fascination grew and grew, becoming borderline addictive by definition. In High school, Alex branched out his knowledge into two subjects: Computer Science and Programming for Game design. Both classes scratched 
     that itch of programming, but it also caused a rift to form; more specifically, what subject does he want to pursue? With much deliberation and a lot of second guessing, Computer Science pushed through the fog and became the target of study.
   </p>
-  <h2>
+  <h2 class="alternate-style">
       Top 5 Personal Tips for Final Fantasy XIV Department of Land and Hand classes
     </h2>
-    <h4>Department of Hand classes are called Crafting Classes | Department of Land classes are called Gathering classes</h4>
-    <ol>
+    <h4 class="alternate-style">Department of Hand classes are called Crafting Classes | Department of Land classes are called Gathering classes</h4>
+    <ol class="top-5-list">
       <li> <!-- Section 1: Managing successful crafting/gathering attempts -->
         Crafters and Gatherers can fail their respective goals. Each craft has a requirement to reach to achieve success, whereas gathering is a risk/reward system. Each have their own ways to combat this.<br><br>
 
@@ -59,7 +95,6 @@
           Gatherer leveling follows the same routine, with one major exception. Most of the steps can be followed similarly, but upon reaching Level 80, the focus shifts over to gathering <i>Collectables</i>. From levels 81-100, gathering collectables are by far the most important.<br>
           Gathering materials for high-end crafting requires a lot of Folklore books and materia, which can be purchased from Scrip vendors across Eorzea. Collectables provide scrips for the respective classes and a burst of EXP for the class the collectable was collected on.<br>
           <strong>Note:</strong> Fishing collectables are more challenging to achieve, often requiring specific conditions to catch. There are various resources and community groups that are out there, such as <a href="https://ffxivteamcraft.com" target="_blank">Teamcraft</a> that will assist you.<br>
-          
       </li>
 
       <li> <!-- Section 4: Class Quests -->
@@ -81,3 +116,5 @@
       </li>
     </ol>
 </body>
+
+<!-- <footer>&copy;Testing</footer> -->
