@@ -1,0 +1,46 @@
+/* Header 1 */
+h1
+{
+    color:blue;
+    font-size:50px;
+}
+
+/* Body */
+body
+{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: beige
+}
+
+/* Header 2 */
+h2{font-family:verdana}
+
+/* Header 4 */
+h4{font-family:sans-serif}
+
+/* alternate header styles */
+.alternate-style
+{
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Top 5 List */
+ol.top-5-list
+{
+    font-family: 'Times New Roman';
+    background-color:aliceblue;
+}
+
+/* All Context Inside the List */
+.list-context{color:chocolate;}
+
+/* Important Information for Users to Remember */
+.list-important-info{color:crimson;}
+
+/* All Crafting Class Tips in the List */
+.crafting-tips{color:blue;}
+
+/* All Gathering Class Tips in the List */
+.gathering-tips{color:forestgreen;}
